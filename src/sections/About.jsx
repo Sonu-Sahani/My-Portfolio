@@ -49,30 +49,19 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm a final-year Computer Science Engineering student at MNNIT Allahabad and a passionate Full Stack Developer who enjoys building modern, scalable web applications. My interest in technology began with a curiosity about how software works and has grown into a strong passion for creating impactful digital solutions.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I specialize in React.js, Node.js, Express.js, MongoDB, and JavaScript, developing user-friendly applications with a focus on performance, clean code, and great user experiences. From designing responsive interfaces to building robust backend systems, I enjoy turning ideas into real-world products.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Beyond web development, I have a growing interest in Artificial Intelligence and Machine Learning. I'm constantly learning new technologies, solving challenging problems, and working on projects that help me grow as a developer and future software engineer.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to transform ideas into meaningful digital products, creating applications that are intuitive for users, efficient for businesses, and built to scale."
               </p>
             </div>
           </div>

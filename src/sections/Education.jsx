@@ -38,12 +38,7 @@ export const Education = () => {
       location: "Bara, Nepal",
       description:
         "Built a strong academic foundation while developing analytical thinking, discipline, and an early interest in computers and technology.",
-      technologies: [
-        "Science",
-        "Mathematics",
-        "Communication",
-        "Leadership",
-      ],
+      technologies: ["Science", "Mathematics", "Communication", "Leadership"],
     },
   ];
 
@@ -115,13 +110,9 @@ export const Education = () => {
                       {edu.period}
                     </span>
 
-                    <h3 className="text-xl font-semibold mt-2">
-                      {edu.degree}
-                    </h3>
+                    <h3 className="text-xl font-semibold mt-2">{edu.degree}</h3>
 
-                    <p className="text-muted-foreground">
-                      {edu.institution}
-                    </p>
+                    <p className="text-muted-foreground">{edu.institution}</p>
 
                     {edu.location && (
                       <p className="text-sm text-primary mt-1">

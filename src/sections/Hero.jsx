@@ -40,6 +40,7 @@ export const Hero = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(30)].map((_, i) => (
           <div
+            key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
@@ -111,7 +112,10 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/Sonu-Sahani" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/sonu-sahani-928209371/?skipRedirect=true" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/sonu-sahani-928209371/?skipRedirect=true",
+                },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a

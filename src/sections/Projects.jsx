@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Learning Management System",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A comprehensive learning management platform featuring interactive courses, progress tracking, personalized learning paths, and seamless student-instructor collaboration.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Javascript", "NodeJS"],
+    link: "https://github.com/Sonu-Sahani/LMS",
+    github: "https://github.com/Sonu-Sahani/LMS",
   },
   {
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["Node.js", "Stripe", "MongoDB", "Tailwind","React"],
+    link: "https://github.com/Sonu-Sahani/Green-Cart",
+    github: "https://github.com/Sonu-Sahani/Green-Cart",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Radiology Report Manager",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A full-stack radiology management platform designed to streamline patient records, report generation, secure document storage, and workflow management for healthcare professionals.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+    link: "https://github.com/Sonu-Sahani/THE-FUTURE-MERN",
+    github: "https://github.com/Sonu-Sahani/THE-FUTURE-MERN",
   },
   {
-    title: "Project Management Tool",
+    title: "World Atlas",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "An interactive web application that provides detailed information about countries worldwide, including population, capital, region, languages, and other key geographical insights through a clean and intuitive interface.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Tailwindcss"],
+    link: "https://github.com/Sonu-Sahani/World-Atlas",
+    github: "https://github.com/Sonu-Sahani/World-Atlas",
   },
 ];
 
